@@ -1,0 +1,131 @@
+>>>>> Question 1:-
+                 
+mysql> use student;
+Database changed
+mysql> desc student;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| regno    | int      | YES  |     | NULL    |       |
+| name     | char(20) | YES  |     | NULL    |       |
+| gender   | char(10) | YES  |     | NULL    |       |
+| DOB      | int      | YES  |     | NULL    |       |
+| mobileno | int      | YES  |     | NULL    |       |
+| city     | char(20) | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> alter table student add primary key(city);
+Query OK, 0 rows affected (0.05 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc student;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| regno    | int      | YES  |     | NULL    |       |
+| name     | char(20) | YES  |     | NULL    |       |
+| gender   | char(10) | YES  |     | NULL    |       |
+| DOB      | int      | YES  |     | NULL    |       |
+| mobileno | int      | YES  |     | NULL    |       |
+| city     | char(20) | NO   | PRI | NULL    |       |
++----------+----------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>> Question2:-
+
+mysql> use faculty;
+Database changed
+mysql> desc faculty;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| facNo    | int      | YES  |     | NULL    |       |
+| name     | char(20) | YES  |     | NULL    |       |
+| gender   | char(10) | YES  |     | NULL    |       |
+| DOB      | int      | YES  |     | NULL    |       |
+| mobileno | int      | YES  |     | NULL    |       |
+| DOJ      | int      | YES  |     | NULL    |       |
+| dept     | char(10) | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+7 rows in set (0.00 sec)
+
+mysql> alter table faculty add primary key(facNo);
+Query OK, 0 rows affected (0.04 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc faculty;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| facNo    | int      | NO   | PRI | NULL    |       |
+| name     | char(20) | YES  |     | NULL    |       |
+| gender   | char(10) | YES  |     | NULL    |       |
+| DOB      | int      | YES  |     | NULL    |       |
+| mobileno | int      | YES  |     | NULL    |       |
+| DOJ      | int      | YES  |     | NULL    |       |
+| dept     | char(10) | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+7 rows in set (0.00 sec)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>> Question 4:-
+
+mysql> use department;
+Database changed
+mysql> desc department;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| deptNo   | int      | YES  |     | NULL    |       |
+| deptname | char(20) | YES  |     | NULL    |       |
+| depthead | char(10) | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> alter table department add primary key(deptno);
+Query OK, 0 rows affected (0.04 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc department;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| deptNo   | int      | NO   | PRI | NULL    |       |
+| deptname | char(20) | YES  |     | NULL    |       |
+| depthead | char(10) | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+>>>>> Question 5:-
+
+mysql> use course;
+Database changed
+mysql> desc course;
++------------+----------+------+-----+---------+-------+
+| Field      | Type     | Null | Key | Default | Extra |
++------------+----------+------+-----+---------+-------+
+| courseNo   | int      | YES  |     | NULL    |       |
+| coursedesc | char(20) | YES  |     | NULL    |       |
+| coursetype | char(10) | YES  |     | NULL    |       |
+| semno      | int      | YES  |     | NULL    |       |
+| hallno     | int      | YES  |     | NULL    |       |
+| facno      | int      | YES  |     | NULL    |       |
++------------+----------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> alter table course add primary key(courseno);
+Query OK, 0 rows affected (0.04 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc course;
++------------+----------+------+-----+---------+-------+
+| Field      | Type     | Null | Key | Default | Extra |
++------------+----------+------+-----+---------+-------+
+| courseNo   | int      | NO   | PRI | NULL    |       |
+| coursedesc | char(20) | YES  |     | NULL    |       |
+| coursetype | char(10) | YES  |     | NULL    |       |
+| semno      | int      | YES  |     | NULL    |       |
+| hallno     | int      | YES  |     | NULL    |       |
+| facno      | int      | YES  |     | NULL    |       |
++------------+----------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
