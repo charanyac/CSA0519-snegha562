@@ -269,6 +269,20 @@ EXPERIMENT-14(https://github.com/SNEGHApc07/CSA0519-snegha562/blob/main/EXPERIME
 ![image](https://user-images.githubusercontent.com/112924718/191533357-26fc9089-ce2d-4d35-88c0-608241303df3.png)
 
 
+## EXPERIMENT-15
+EXPERIMENT-15(https://github.com/SNEGHApc07/CSA0519-snegha562/blob/main/EXPERIMENT-15)
+## OUTPUT
+
+1.
+
+![image](https://user-images.githubusercontent.com/112924718/191535808-c8f1fdc3-027c-49ae-9d03-dd95551265ac.png)
+
+2.
+
+![image](https://user-images.githubusercontent.com/112924718/191535899-e973b6c0-e070-462f-92bb-7cdfdffcfa0e.png)
+
+
+
 
 
 
