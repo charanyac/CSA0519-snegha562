@@ -214,10 +214,11 @@ EXPERIMENT-9(https://github.com/SNEGHApc07/CSA0519-snegha562/blob/main/EXPERIMEN
 
 
 ## EXPERIMENT-10
-EXPERIMENT-10(
+EXPERIMENT-10(https://github.com/SNEGHApc07/CSA0519-snegha562/blob/main/EXPERIMENT-10)
 ## OUTPUT
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/112924718/191508460-06c7e4e3-3d4c-4091-8ddd-35fbf851e43d.png)
+
 
 
 
