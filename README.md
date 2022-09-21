@@ -124,6 +124,7 @@ EXPERRIMENT-4(https://github.com/SNEGHApc07/CSA0519-snegha562/blob/main/EXPERIME
 
 ##EXPERIMENT-5
 EXPERIMENT-5(https://github.com/SNEGHApc07/CSA0519-snegha562/blob/main/EXPERIMENT-5)
+##OUTPUT
 
 1.
 
@@ -165,6 +166,7 @@ EXPERIMENT-5(https://github.com/SNEGHApc07/CSA0519-snegha562/blob/main/EXPERIMEN
 
 ##EXPERIMENT-6
 EXPERIMENT-6(https://github.com/SNEGHApc07/CSA0519-snegha562/blob/main/EXPERIMENT-6)
+##OUTPUT
 
 1.
 
@@ -177,6 +179,7 @@ EXPERIMENT-6(https://github.com/SNEGHApc07/CSA0519-snegha562/blob/main/EXPERIMEN
 
 ##EXPERIMENT-7
 EXPERIMENT7(https://github.com/SNEGHApc07/CSA0519-snegha562/blob/main/EXPERIMENT-7)
+##OUTPUT
 
 1.
 
@@ -184,10 +187,34 @@ EXPERIMENT7(https://github.com/SNEGHApc07/CSA0519-snegha562/blob/main/EXPERIMENT
 
 ##EXPERIMENT-8
 EXPERIMENT-8(https://github.com/SNEGHApc07/CSA0519-snegha562/blob/main/EXPERIMENT-8)
+##OUTPUT
 
 1.
 
 ![image](https://user-images.githubusercontent.com/112924718/191435380-2d4853bd-da21-4c7d-8cbc-99558ca0ea4f.png)
+
+
+
+
+##EXPERIMENT-9
+EXPERIMENT-9(https://github.com/SNEGHApc07/CSA0519-snegha562/blob/main/EXPERIMENT-9)
+##OUTPUT
+
+1.
+
+![image](https://user-images.githubusercontent.com/112924718/191435827-b88c5ca4-2a5b-4875-8d7d-57c7cdc1fba8.png)
+
+2.
+
+![image](https://user-images.githubusercontent.com/112924718/191435875-505c9ee3-8bc9-4e19-9b67-722c729a9d95.png)
+
+3.
+
+![image](https://user-images.githubusercontent.com/112924718/191435928-31a1ff2f-f055-45b8-beeb-27ff5796db0c.png)
+
+
+
+
 
 
 
